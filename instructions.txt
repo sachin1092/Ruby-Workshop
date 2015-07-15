@@ -1,5 +1,4 @@
 Installation intructions:
-
 https://www.ruby-lang.org/en/documentation/installation/
 
 Intallation of ruby 1.9.3
