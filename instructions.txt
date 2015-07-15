@@ -1,0 +1,13 @@
+Installation intructions:
+
+https://www.ruby-lang.org/en/documentation/installation/
+
+Intallation of ruby 1.9.3
+sudo apt-get install ruby-full
+
+Installation using RVM
+https://rvm.io/rvm/install/
+
+Documentation available at:
+https://www.ruby-lang.org/en/documentation/
+http://ruby-doc.org/core-1.9.3/
