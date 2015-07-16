@@ -1,21 +1,12 @@
-require 'prime'   # This is a module.
+require 'prime'
 
 def first_n_primes(n)
+  # Check for correct input!
+  "n must be an integer" unless n.is_a? Integer
+  "n must be greater than 0" if n <= 0
 
-  unless n.is_a? Integer
-    return "n must be an integer."
-  end
-
-  if n <= 0
-    return "n must be greater than 0."
-  end
-  
-  prime_array = [] if prime_array.nil?
-  
-  Prime.each(n) do |prime|
-    prime_array.push(prime)
-  end
-  return prime_array
+  prime = Prime.instance
+  prime.first n
 end
 
-puts first_n_primes(10)
+first_n_primes(10)

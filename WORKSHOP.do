@@ -96,4 +96,35 @@ For example, if our program gets the string "the rain in Spain falls mainly on t
 
 Methods
 Blocks
+collect method
+yield
+Proc
+lambda
 
+Lambdas vs. Procs
+If you're thinking that procs and lambdas look super similar, that's because they are! There are only two main differences.
+
+First, a lambda checks the number of arguments passed to it, while a proc does not. This means that a lambda will throw an error if you pass it the wrong number of arguments, whereas a proc will ignore unexpected arguments and assign nil to any that are missing.
+
+Second, when a lambda returns, it passes control back to the calling method; when a proc returns, it does so immediately, without going back to the calling method.
+
+Modules
+Classes
+Scope
+inheritance
+public and private
+super
+
+require
+using include instead of require
+extend
+
+mixin
+
+Problem 3:
+We'll be making an Account object with public methods to display balances and transfer funds, but which rely on private methods to make sure the user's PIN (personal identification number) is correct before approving transactions.
+Create methods 
+	- display balance
+	- withdraw money
+	- Check pin
+Check pin should be private and other two should be public.
